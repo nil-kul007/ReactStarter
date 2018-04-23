@@ -22,3 +22,15 @@ When that's done, install the project dependenciesby using below command.
 ```bash
 $ npm install # Install project dependencies 
 ```
+## Running the Project
+
+After completing the installation below are list of commands to run the application
+
+```bash
+$ npm start       # Serves your app at `localhost:3000`
+$ npm build       # Builds the application to ./dist
+$ npm test        # Runs unit tests with Karma.
+$ npm test:watch  # uns `test` in watch mode to re-run tests when changed
+$ npm lint        # Lints the project for potential errors
+$ npm lint:fix    # Lints the project and fixes all correctable errors
+```
